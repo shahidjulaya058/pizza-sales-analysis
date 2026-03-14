@@ -1,6 +1,6 @@
 # 🍕 Pizza Sales Analysis – Retail Sales & Business Intelligence
 
-_Analyzing sales trends, customer behavior, and product performance to drive strategic marketing and inventory decisions using SQL and Power BI._
+_Analyzing sales trends, customer behavior, and product performance to drive strategic marketing and operational decisions using SQL and Power BI._
 
 ---
 
@@ -14,33 +14,48 @@ _Analyzing sales trends, customer behavior, and product performance to drive str
 - [SQL Analysis & KPIs](#sql-analysis--kpis)
 - [Key Findings](#key-findings)
 - [Dashboard](#dashboard)
+- [How to Run This Project](#how-to-run-this-project)
 - [Final Recommendations](#final-recommendations)
 - [Author & Contact](#author--contact)
 
 ---
+
 ## 🚀 Overview
-Is project mein maine ek pizza outlet ke transactional data ko evaluate kiya hai. Maine SQL Server ka use karke ETL (Extract, Transform, Load) pipeline banayi aur Power BI ke zariye interactive dashboards taiyar kiye taaki sales growth aur operational efficiency ko analyze kiya ja sake.
+In this project, I evaluated transactional data from a pizza outlet to provide strategic business insights. I developed an ETL pipeline using **SQL Server** and created an interactive dashboard in **Power BI** to visualize key performance metrics.
 
 ---
+
 ## 🎯 Business Problem
-Management ko in critical business questions ke answers chahiye the:
-- **Daily & Monthly Trends:** Kaunse din aur mahine sales peak par hoti hain?
-- **Category Insights:** Kaunsi pizza category (Classic, Veggie, Supreme) sabse zyada revenue deti hai?
-- **Order Metrics:** Average order value aur average pizzas per order kya hai?
-- **Best/Worst Sellers:** Top 5 aur Bottom 5 pizzas kaunse hain?
+Effective monitoring is essential in retail sales management. This project aims to:
+- **Sales Trends**: Identify daily and monthly sales patterns.
+- **Product Performance**: Determine top-selling and underperforming pizza categories.
+- **Order Insights**: Analyze average order value and customer behavior.
+- **Operational Optimization**: Manage inventory and staffing based on peak hours.
 
 ---
+
 ## 📊 Dataset
-- **Multiple CSV files:** Transactional data jo `/data/` folder mein available hai.
-- **SQL Summary Table:** Ingested data se banayi gayi summary table jo analysis ke liye use hui.
+- Transactional sales records stored as CSV files in the `/data/` folder.
+- Transformed data within SQL Server used for deep-dive analysis.
 
 ---
+
 ## 🛠️ Tools & Technologies
-- **SQL (MS SQL Server):** CTEs, Joins, Window Functions aur Aggregations.
-- **Power BI:** Interactive Dashboards aur DAX Modeling.
-- **Excel:** Initial data exploration aur cleaning.
-- **GitHub:** Project management aur documentation.
+- **SQL (MS SQL Server)**: Used for Common Table Expressions (CTEs), Joins, and Data Aggregations.
+- **Power BI**: Used for interactive visualizations and DAX modeling.
+- **Git/GitHub**: Used for version control and project documentation.
 
 ---
+
 ## 📂 Project Structure
-Aapke files ke hisaab se:
+Following the local system directory:
+
+```text
+pizza-sales-analysis/
+│
+├── Dashboard/                  # Power BI dashboard file (.pbix)
+├── data/                       # Raw CSV pizza sales dataset
+├── sql-analysis/               # SQL scripts for KPIs & Data Cleaning
+├── pizza-sales-report.docx     # Detailed project documentation
+├── README.md                   # Project summary and guide
+└── sql ss.png                  # Dashboard visual snapshots
