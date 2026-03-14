@@ -104,7 +104,23 @@ pizza-sales-analysis/
 
 ---
 
-<h2 id="how-to-add-image">🖼️ Dashboard Preview</h2>
+<h2 id="dashboard">📊 Dashboard Preview</h2>
 
-![Pizza Sales Dashboard](sql%20ss.png)
+**1. Home View: Executive Business KPIs**
+- **Core Metrics Tracking**: Provides a high-level summary of **Total Revenue**, **Average Order Value (AOV)**, and **Total Orders** to monitor overall business health.
+- **Sales Intelligence**: Features dynamic time-series visualizations to identify **Daily** and **Monthly** revenue patterns, helping stakeholders understand cyclical demand.
+- **Strategic Forecasting**: Facilitates the detection of peak sales hours and seasonal spikes, enabling data-driven operational scheduling.
+
+![Home Dashboard](home.png)
+
+---
+
+**2. Sellers View: Product Performance Analysis**
+- **Inventory & Menu Optimization**: Delivers a granular analysis of product performance by ranking the **Top 5 (Best Sellers)** and **Bottom 5 (Worst Sellers)** pizzas based on revenue and quantity.
+- **Strategic Planning**: Provides actionable insights for targeted **promotional campaigns** and **stock management** to minimize wastage and maximize turnover.
+- **Market Share Insights**: Highlights specific pizza categories and sizes that dominate the sales mix, allowing for precise menu engineering.
+
+![Sellers Analysis](sellers.png)
+
+---
 
