@@ -108,4 +108,3 @@ pizza-sales-analysis/
 
 ![Pizza Sales Dashboard](sql%20ss.png)
 
-*(Note: Image add karne ke liye bas apni screenshot ka naam `sql ss.png` rakh kar GitHub main folder mein upload kar dena)*
