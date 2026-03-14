@@ -1,6 +1,6 @@
-# 🍕 Pizza Sales Analysis – Retail Sales & Business Intelligence
+# 🍕 Pizza Sales Analysis – Business Intelligence Case Study
 
-_Analyzing sales trends, customer behavior, and product performance to drive strategic marketing and operational decisions using SQL and Power BI._
+_An end-to-end data analysis project identifying sales trends and customer preferences to optimize retail performance using SQL and Power BI._
 
 ---
 
@@ -11,51 +11,47 @@ _Analyzing sales trends, customer behavior, and product performance to drive str
 - [Tools & Technologies](#tools--technologies)
 - [Project Structure](#project-structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
-- [SQL Analysis & KPIs](#sql-analysis--kpis)
-- [Key Findings](#key-findings)
-- [Dashboard](#dashboard)
-- [How to Run This Project](#how-to-run-this-project)
+- [Key Insights (SQL & Power BI)](#key-insights-sql--power-bi)
+- [Dashboard Visuals](#dashboard-visuals)
 - [Final Recommendations](#final-recommendations)
 - [Author & Contact](#author--contact)
 
 ---
 
 ## 🚀 Overview
-In this project, I evaluated transactional data from a pizza outlet to provide strategic business insights. I developed an ETL pipeline using **SQL Server** and created an interactive dashboard in **Power BI** to visualize key performance metrics.
+This project evaluates transactional data from a pizza outlet to drive strategic business decisions. I built a robust data pipeline using **SQL Server** for ETL processes and **Power BI** for creating an interactive dashboard that monitors real-time business health.
 
 ---
 
 ## 🎯 Business Problem
-Effective monitoring is essential in retail sales management. This project aims to:
-- **Sales Trends**: Identify daily and monthly sales patterns.
-- **Product Performance**: Determine top-selling and underperforming pizza categories.
-- **Order Insights**: Analyze average order value and customer behavior.
-- **Operational Optimization**: Manage inventory and staffing based on peak hours.
+The objective was to solve critical business challenges:
+- **Trend Identification:** Pinpointing peak periods for sales.
+- **Product Mix:** Understanding which categories and sizes drive the most revenue.
+- **Operational Efficiency:** Calculating metrics like Average Order Value (AOV) and Pizzas per Order to optimize throughput.
 
 ---
 
 ## 📊 Dataset
-- Transactional sales records stored as CSV files in the `/data/` folder.
-- Transformed data within SQL Server used for deep-dive analysis.
+- Transactional sales data (CSV format) including order dates, times, pizza categories, sizes, and pricing.
+- Data was processed and queried directly from **MS SQL Server**.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **SQL (MS SQL Server)**: Used for Common Table Expressions (CTEs), Joins, and Data Aggregations.
-- **Power BI**: Used for interactive visualizations and DAX modeling.
-- **Git/GitHub**: Used for version control and project documentation.
+- **SQL (MS SQL Server):** Used for data aggregation and KPI extraction.
+- **Power BI:** Used for data modeling, DAX, and visualization.
+- **MS Word:** Documenting the final business report.
+- **GitHub:** Project hosting and version control.
 
 ---
 
 ## 📂 Project Structure
-Following the local system directory:
-
 ```text
 pizza-sales-analysis/
 │
-├── Dashboard/                  # Power BI dashboard file (.pbix)
-├── data/                       # Raw CSV pizza sales dataset
-├── sql-analysis/               # SQL scripts for KPIs & Data Cleaning
-├── pizza-sales-report.docx     # Detailed project documentation
-├── README.md                   # Project summary and guide
-└── sql ss.png                  # Dashboard visual snapshots
+├── Dashboard/                  # Power BI .pbix file
+├── data/                       # Raw sales CSV files
+├── sql-analysis/               # SQL scripts for KPI calculations
+├── pizza-sales-report.docx     # Deep-dive analysis report
+├── README.md                   # Project documentation
+└── screenshots/                # Dashboard snapshots (PNG)
