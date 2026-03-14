@@ -61,9 +61,7 @@ pizza-sales-analysis/
 <h2 id="data-cleaning--preparation">🔍 Data Cleaning & Preparation</h2>
 
 Standardization: Converted order_date and order_time into uniform formats for time-series analysis.
-
 Metric Creation: Developed calculated columns for Revenue and Order Month/Day names.
-
 Verification: Cross-checked Total Revenue and Order Count between SQL results and Power BI visuals to ensure 100% data accuracy.
 
 <h2 id="exploratory-data-analysis-eda">📈 Exploratory Data Analysis (EDA)</h2>
