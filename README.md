@@ -60,29 +60,29 @@ pizza-sales-analysis/
 ```
 <h2 id="data-cleaning--preparation">🔍 Data Cleaning & Preparation</h2>
 
-- Standardization: Converted order_date and order_time into uniform formats for time-series analysis.
-- Metric Creation: Developed calculated columns for Revenue and Order Month/Day names.
-- Verification: Cross-checked Total Revenue and Order Count between SQL results and Power BI visuals to ensure 100% data accuracy.
+- **Standardization: Converted order_date and order_time into uniform formats for time-series analysis.
+- **Metric Creation: Developed calculated columns for Revenue and Order Month/Day names.
+- **Verification: Cross-checked Total Revenue and Order Count between SQL results and Power BI visuals to ensure 100% data accuracy.
 
 <h2 id="exploratory-data-analysis-eda">📈 Exploratory Data Analysis (EDA)</h2>
 Temporal Trends Detected:
-Daily Peak: Friday and Saturday record the highest volume of orders (Weekend surge).
-Monthly Peak: Maximum sales activity observed in July and January.
-Seasonal Insight: Orders tend to rise during evening hours (6 PM - 9 PM).
-Product Performance:
-Dominant Category: Classic Category contributes most to total quantities sold.
-Size Preference: Large (L) size pizzas are the primary revenue drivers (~45% of total sales).
+- **Daily Peak: Friday and Saturday record the highest volume of orders (Weekend surge).
+- **Monthly Peak: Maximum sales activity observed in July and January.
+- **Seasonal Insight: Orders tend to rise during evening hours (6 PM - 9 PM).
+- **Product Performance:
+- **Dominant Category: Classic Category contributes most to total quantities sold.
+- **Size Preference: Large (L) size pizzas are the primary revenue drivers (~45% of total sales).
 
 <h2 id="research-questions--key-findings">💡 Research Questions & Key Findings</h2>
-Top Performers: The The Thai Chicken Pizza leads in revenue generation.
-Underperformers: Identified the The Brie Carre Pizza as a bottom performer in both quantity and revenue.
-Efficiency Metrics:
-Average Order Value (AOV): Tracked to understand customer spending capacity.
-Pizzas Per Order: Average of 2.32 pizzas indicates a high percentage of group/family orders.
+- **Top Performers: The The Thai Chicken Pizza leads in revenue generation.
+- **Underperformers: Identified the The Brie Carre Pizza as a bottom performer in both quantity and revenue.
+- **Efficiency Metrics:
+- **Average Order Value (AOV): Tracked to understand customer spending capacity.
+- **Pizzas Per Order: Average of 2.32 pizzas indicates a high percentage of group/family orders.
 
 <h2 id="dashboard">📊 Dashboard</h2>
-The Power BI Dashboard provides:
-Home Page: High-level KPIs (Revenue, Total Orders, AOV).
-Best/Worst Sellers: Dynamic charts for top and bottom 5 products.
+- **The Power BI Dashboard provides:
+- **Home Page: High-level KPIs (Revenue, Total Orders, AOV).
+- **Best/Worst Sellers: Dynamic charts for top and bottom 5 products.
 
 Interactive Filters: Ability to slice data by Category, Size, and Date Range.
