@@ -59,6 +59,7 @@ pizza-sales-analysis/
 └── screenshots/                # Dashboard visual snapshots
 ```
 <h2 id="data-cleaning--preparation">🔍 Data Cleaning & Preparation</h2>
+
 Standardization: Converted order_date and order_time into uniform formats for time-series analysis.
 
 Metric Creation: Developed calculated columns for Revenue and Order Month/Day names.
